@@ -1,0 +1,1591 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>UR Jewellers | The Pride of Shahri Khaas — Gold & Silver Jewellery in Srinagar</title>
+  <meta name="description" content="UR Jewellers, Saraf Kadal, Srinagar — Explore exquisite gold jewellery, silver jewellery, gold coins and silver coins with a bespoke heritage store experience.">
+  <meta property="og:title" content="UR JEWELLERS – The Pride of Shahri Khaas, Srinagar">
+  <meta property="og:description" content="Luxury gold & silver jewellery store in Saraf Kadal, Srinagar, Jammu & Kashmir. Discover curated bridal, festive, and contemporary jewellery.">
+  <meta property="og:type" content="website">
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Google Fonts: Cormorant Garamond (Editorial Luxury Serif) + Montserrat & Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Montserrat:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            noir: '#0C0C0D',
+            charcoal: '#171719',
+            graphite: '#222226',
+            champagne: '#D4AF37',
+            gold: {
+              300: '#F3E5AB',
+              400: '#E6C762',
+              500: '#D4AF37',
+              600: '#AA820A',
+              700: '#856404'
+            },
+            ivory: '#FAF8F5',
+            sand: '#F0ECE1',
+            mutedSand: '#E3DDD0'
+          },
+          fontFamily: {
+            serif: ['"Cormorant Garamond"', 'Georgia', 'serif'],
+            sans: ['"Montserrat"', 'sans-serif'],
+          },
+          letterSpacing: {
+            'ultra-wide': '.25em',
+            'widest-plus': '.35em',
+          }
+        }
+      }
+    }
+  </script>
+
+  <style>
+    /* Custom Luxury Styling */
+    ::selection {
+      background-color: #D4AF37;
+      color: #0C0C0D;
+    }
+    
+    .gold-gradient-text {
+      background: linear-gradient(135deg, #F9F295 0%, #E0AA3E 40%, #FAF8F5 50%, #B8860B 80%, #E0AA3E 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .gold-border-gradient {
+      border-image: linear-gradient(to right, #FAF8F5, #D4AF37, #856404, #FAF8F5) 1;
+    }
+
+    .kashmiri-filigree-pattern {
+      background-color: #0C0C0D;
+      background-image: radial-gradient(#D4AF37 0.75px, transparent 0.75px), radial-gradient(#D4AF37 0.75px, #0C0C0D 0.75px);
+      background-size: 30px 30px;
+      background-position: 0 0, 15px 15px;
+      opacity: 0.96;
+    }
+
+    .glass-dark {
+      background: rgba(18, 18, 20, 0.85);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      border: 1px solid rgba(212, 175, 55, 0.15);
+    }
+
+    .glass-card {
+      background: rgba(255, 255, 255, 0.03);
+      backdrop-filter: blur(8px);
+      border: 1px solid rgba(212, 175, 55, 0.12);
+      transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+    .glass-card:hover {
+      background: rgba(212, 175, 55, 0.05);
+      border-color: rgba(212, 175, 55, 0.4);
+      transform: translateY(-4px);
+    }
+
+    /* Modal animation */
+    .modal-backdrop {
+      transition: opacity 0.3s ease;
+    }
+    .modal-content {
+      transition: transform 0.3s ease, opacity 0.3s ease;
+    }
+    .modal.hidden {
+      display: none;
+    }
+
+    /* Custom scrollbar */
+    ::-webkit-scrollbar {
+      width: 6px;
+    }
+    ::-webkit-scrollbar-track {
+      background: #0C0C0D;
+    }
+    ::-webkit-scrollbar-thumb {
+      background: #D4AF37;
+      border-radius: 3px;
+    }
+  </style>
+</head>
+
+<body class="bg-noir text-ivory font-sans antialiased overflow-x-hidden selection:bg-gold-500 selection:text-noir">
+
+  <!-- TOP STATUS / ANNOUNCEMENT BAR -->
+  <div class="bg-graphite border-b border-gold-500/20 text-xs text-sand py-2 px-4 tracking-widest text-center flex items-center justify-between z-50 relative">
+    <div class="hidden md:flex items-center space-x-4 text-[11px] text-sand/80">
+      <span class="flex items-center gap-1"><i data-lucide="map-pin" class="w-3.5 h-3.5 text-gold-400"></i> Saraf Kadal, Srinagar, Kashmir</span>
+      <span class="text-gold-500/40">•</span>
+      <span class="flex items-center gap-1"><i data-lucide="phone" class="w-3.5 h-3.5 text-gold-400"></i> +91 94194 04866</span>
+    </div>
+    <div class="mx-auto md:mx-0 text-center flex items-center gap-2">
+      <span class="inline-block w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+      <span class="font-medium tracking-wide">SHAHRI KHAAS STORE OPEN & ONLINE ENQUIRIES ACTIVE</span>
+    </div>
+    <div class="hidden md:flex items-center space-x-3 text-[11px]">
+      <a href="https://instagram.com/urjewellers" target="_blank" rel="noopener" class="hover:text-gold-400 transition-colors flex items-center gap-1">
+        <i data-lucide="instagram" class="w-3.5 h-3.5 text-gold-400"></i> 124K+ Community
+      </a>
+      <span class="text-gold-500/40">|</span>
+      <div class="flex items-center gap-1 text-gold-400 font-semibold">
+        <span>★ 4.0</span>
+        <span class="text-sand/70 font-normal">(359 Google Reviews)</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- NAVIGATION HEADER -->
+  <header id="main-header" class="fixed top-0 left-0 w-full z-40 transition-all duration-300 glass-dark py-4 px-6 md:px-12 border-b border-gold-500/15">
+    <div class="max-w-7xl mx-auto flex items-center justify-between">
+      
+      <!-- Brand Logo -->
+      <a href="#" class="group flex flex-col">
+        <span class="font-serif text-2xl md:text-3xl tracking-widest text-ivory group-hover:text-gold-400 transition-colors font-semibold uppercase">
+          UR JEWELLERS
+        </span>
+        <span class="text-[9px] md:text-[10px] tracking-widest-plus text-gold-400 uppercase font-light -mt-1">
+          The Pride of Shahri Khaas
+        </span>
+      </a>
+
+      <!-- Desktop Navigation Links -->
+      <nav class="hidden lg:flex items-center space-x-7 text-xs uppercase tracking-widest font-medium text-sand/90">
+        <a href="#collections" class="hover:text-gold-400 transition-colors">Collections</a>
+        <a href="#gold" class="hover:text-gold-400 transition-colors">Gold</a>
+        <a href="#silver" class="hover:text-gold-400 transition-colors">Silver</a>
+        <a href="#coins" class="hover:text-gold-400 transition-colors">Coins</a>
+        <a href="#liverates" class="hover:text-gold-400 transition-colors flex items-center gap-1 text-gold-400">
+          <span class="w-1.5 h-1.5 rounded-full bg-gold-400"></span> Live Rates
+        </a>
+        <a href="#about" class="hover:text-gold-400 transition-colors">Heritage</a>
+        <a href="#reviews" class="hover:text-gold-400 transition-colors">Reviews</a>
+        <a href="#order-desk" class="hover:text-gold-400 transition-colors">Order Desk</a>
+        <a href="#contact" class="hover:text-gold-400 transition-colors">Contact</a>
+      </nav>
+
+      <!-- Header CTAs -->
+      <div class="hidden sm:flex items-center space-x-3">
+        <a href="https://wa.me/919419404866?text=Hello%20UR%20Jewellers,%20I%20would%20like%20to%20enquire%20about%20your%20jewellery%20collection." target="_blank" rel="noopener" class="px-4 py-2 border border-gold-500/40 text-gold-400 hover:bg-gold-500 hover:text-noir text-xs tracking-widest uppercase font-medium transition-all duration-300 flex items-center gap-1.5">
+          <i data-lucide="message-circle" class="w-3.5 h-3.5"></i> WhatsApp
+        </a>
+        <a href="#store-visit" class="px-4 py-2 bg-gradient-to-r from-gold-600 via-gold-500 to-gold-400 text-noir hover:brightness-110 text-xs tracking-widest uppercase font-semibold transition-all duration-300 shadow-lg shadow-gold-500/10">
+          Visit Store
+        </a>
+      </div>
+
+      <!-- Mobile Menu Toggle Button -->
+      <button id="mobile-menu-btn" class="lg:hidden text-ivory hover:text-gold-400 focus:outline-none p-2" aria-label="Toggle Menu">
+        <i data-lucide="menu" id="menu-icon" class="w-6 h-6"></i>
+      </button>
+
+    </div>
+
+    <!-- Mobile Slide-out Menu -->
+    <div id="mobile-menu" class="hidden lg:hidden glass-dark border-t border-gold-500/20 px-6 py-6 mt-3 flex-col space-y-4 text-sm uppercase tracking-widest">
+      <a href="#collections" class="mobile-nav-link text-sand hover:text-gold-400 py-1">Collections</a>
+      <a href="#gold" class="mobile-nav-link text-sand hover:text-gold-400 py-1">Gold Jewellery</a>
+      <a href="#silver" class="mobile-nav-link text-sand hover:text-gold-400 py-1">Silver Jewellery</a>
+      <a href="#coins" class="mobile-nav-link text-sand hover:text-gold-400 py-1">Gold & Silver Coins</a>
+      <a href="#liverates" class="mobile-nav-link text-gold-400 py-1 flex items-center gap-2">
+        <span class="w-2 h-2 rounded-full bg-gold-400 animate-ping"></span> Live Gold & Silver Rates
+      </a>
+      <a href="#about" class="mobile-nav-link text-sand hover:text-gold-400 py-1">Our Heritage (Shahri Khaas)</a>
+      <a href="#booking" class="mobile-nav-link text-sand hover:text-gold-400 py-1">Book Consultation</a>
+      <a href="#order-desk" class="mobile-nav-link text-sand hover:text-gold-400 py-1">Order Desk & Tracking</a>
+      <a href="#reviews" class="mobile-nav-link text-sand hover:text-gold-400 py-1">Google Reviews (359+)</a>
+      <a href="#contact" class="mobile-nav-link text-sand hover:text-gold-400 py-1">Contact & Directions</a>
+      
+      <div class="pt-4 border-t border-gold-500/20 flex flex-col space-y-2">
+        <a href="tel:+919419404866" class="w-full py-2.5 text-center border border-gold-500/40 text-gold-400 font-medium text-xs tracking-widest uppercase">
+          Call: +91 94194 04866
+        </a>
+        <a href="https://wa.me/919419404866" target="_blank" class="w-full py-2.5 text-center bg-gold-500 text-noir font-semibold text-xs tracking-widest uppercase">
+          Enquire on WhatsApp
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- HERO SECTION -->
+  <section class="relative min-h-screen flex items-center justify-center pt-28 pb-16 px-4 md:px-8 overflow-hidden">
+    <!-- Cinematic Background Ambient Glow & Kashmiri Motif overlay -->
+    <div class="absolute inset-0 bg-gradient-to-b from-noir via-charcoal to-noir z-0"></div>
+    <div class="absolute inset-0 kashmiri-filigree-pattern opacity-30 z-0"></div>
+    
+    <!-- Gold Ambient Light effects -->
+    <div class="absolute top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] bg-gold-500/10 rounded-full blur-[140px] pointer-events-none"></div>
+    
+    <div class="relative z-10 max-w-5xl mx-auto text-center px-4 flex flex-col items-center">
+      
+      <!-- Crown / Crest Icon Accent -->
+      <div class="inline-flex items-center justify-center p-2 mb-6 border border-gold-500/30 rounded-full bg-graphite/40">
+        <i data-lucide="sparkles" class="w-4 h-4 text-gold-400 mr-2"></i>
+        <span class="text-xs tracking-widest uppercase text-gold-300 font-medium">Fine Gold & Silver House • Saraf Kadal, Srinagar</span>
+      </div>
+
+      <!-- Main Headline -->
+      <h1 class="font-serif text-4xl sm:text-6xl md:text-7xl lg:text-8xl tracking-tight leading-[1.08] text-ivory mb-6 font-normal">
+        THE PRIDE OF <br>
+        <span class="italic font-light gold-gradient-text">SHAHRI KHAAS</span>
+      </h1>
+
+      <!-- Subtitle -->
+      <p class="font-serif text-xl sm:text-2xl md:text-3xl text-gold-300 font-light italic mb-4 max-w-2xl">
+        Timeless Jewellery. Refined Craftsmanship. A Legacy of Trust.
+      </p>
+
+      <!-- Body description -->
+      <p class="text-sand/80 max-w-2xl text-xs sm:text-sm md:text-base leading-relaxed mb-10 font-light tracking-wide">
+        Discover a sophisticated world of fine gold, hallmark craftsmanship and silver artistry from UR Jewellers, Saraf Kadal, Srinagar — where Kashmiri timeless elegance meets an elevated modern jewellery experience.
+      </p>
+
+      <!-- Action Buttons -->
+      <div class="flex flex-col sm:flex-row items-center gap-4 w-full sm:w-auto">
+        <a href="#collections" class="w-full sm:w-auto px-8 py-4 bg-gradient-to-r from-gold-600 via-gold-500 to-gold-400 text-noir text-xs uppercase tracking-ultra-wide font-bold hover:shadow-lg hover:shadow-gold-500/20 hover:scale-[1.02] transition-all duration-300 text-center">
+          Explore Collections
+        </a>
+        <a href="#store-visit" class="w-full sm:w-auto px-8 py-4 border border-gold-500/40 hover:border-gold-400 bg-graphite/40 text-ivory text-xs uppercase tracking-ultra-wide font-semibold hover:bg-gold-500/10 transition-all duration-300 text-center">
+          Visit Our Store
+        </a>
+      </div>
+
+      <!-- Trust Bar Strip -->
+      <div class="mt-16 pt-8 border-t border-gold-500/20 grid grid-cols-2 md:grid-cols-4 gap-6 w-full max-w-4xl text-center text-xs tracking-widest text-sand/70 uppercase">
+        <div class="flex flex-col items-center">
+          <span class="text-gold-400 font-serif text-lg">01</span>
+          <span class="font-medium text-ivory mt-1">Fine Gold Jewellery</span>
+          <span class="text-[10px] text-sand/50 lowercase mt-0.5">bridal & modern wear</span>
+        </div>
+        <div class="flex flex-col items-center">
+          <span class="text-gold-400 font-serif text-lg">02</span>
+          <span class="font-medium text-ivory mt-1">Silver Jewellery</span>
+          <span class="text-[10px] text-sand/50 lowercase mt-0.5">pure Kashmiri craft</span>
+        </div>
+        <div class="flex flex-col items-center">
+          <span class="text-gold-400 font-serif text-lg">03</span>
+          <span class="font-medium text-ivory mt-1">Gold & Silver Coins</span>
+          <span class="text-[10px] text-sand/50 lowercase mt-0.5">investment & gifting</span>
+        </div>
+        <div class="flex flex-col items-center">
+          <span class="text-gold-400 font-serif text-lg">04</span>
+          <span class="font-medium text-ivory mt-1">Shahri Khaas Legacy</span>
+          <span class="text-[10px] text-sand/50 lowercase mt-0.5">Saraf Kadal, Srinagar</span>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Scroll Down Hint -->
+    <div class="absolute bottom-4 left-1/2 -translate-x-1/2 text-gold-400/60 flex flex-col items-center gap-1">
+      <span class="text-[9px] uppercase tracking-widest">Scroll</span>
+      <i data-lucide="chevron-down" class="w-4 h-4 animate-bounce"></i>
+    </div>
+  </section>
+
+  <!-- STORE GLIMPSE REFERENCE BANNER -->
+  <section class="py-12 bg-charcoal/60 border-y border-gold-500/15">
+    <div class="max-w-7xl mx-auto px-6 md:px-12">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+        <div class="lg:col-span-5 space-y-4">
+          <span class="text-xs uppercase tracking-widest text-gold-400 font-semibold flex items-center gap-2">
+            <i data-lucide="store" class="w-4 h-4"></i> The In-Store Ambiance
+          </span>
+          <h2 class="font-serif text-3xl md:text-4xl text-ivory font-light leading-snug">
+            A Heritage Sanctuary at <span class="text-gold-400 italic">Saraf Kadal</span>
+          </h2>
+          <p class="text-sand/80 text-sm leading-relaxed font-light">
+            Step into our warm showroom in historic Shahri Khaas. Featuring handcrafted wooden Kashmiri interiors, bespoke consultation lounges, and personal attention tailored for every bride and family celebration.
+          </p>
+          <div class="pt-2 flex flex-wrap gap-4 text-xs tracking-wider text-sand">
+            <span class="flex items-center gap-1.5 bg-noir px-3 py-1.5 border border-gold-500/20">
+              <i data-lucide="shield-check" class="w-3.5 h-3.5 text-gold-400"></i> Pure Trust
+            </span>
+            <span class="flex items-center gap-1.5 bg-noir px-3 py-1.5 border border-gold-500/20">
+              <i data-lucide="heart-handshake" class="w-3.5 h-3.5 text-gold-400"></i> Cooperative Staff
+            </span>
+            <span class="flex items-center gap-1.5 bg-noir px-3 py-1.5 border border-gold-500/20">
+              <i data-lucide="sparkle" class="w-3.5 h-3.5 text-gold-400"></i> Genuine Rates
+            </span>
+          </div>
+        </div>
+
+        <div class="lg:col-span-7 relative group overflow-hidden rounded-sm border border-gold-500/30">
+          <div class="aspect-w-16 aspect-h-9 sm:h-72 w-full overflow-hidden bg-noir relative">
+            <img 
+              src="https://www.designarena.ai/u/3a2684db-71ca-45d8-9d87-660aa0c7bcfe" 
+              alt="UR Jewellers Showroom Interior in Saraf Kadal Srinagar" 
+              class="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-700 brightness-90"
+              loading="lazy"
+            />
+            <div class="absolute inset-0 bg-gradient-to-t from-noir/80 via-transparent to-transparent"></div>
+            <div class="absolute bottom-4 left-4 right-4 flex justify-between items-end">
+              <div>
+                <span class="text-[10px] uppercase tracking-widest text-gold-300">Showroom Glimpse</span>
+                <p class="text-xs text-ivory font-serif italic">UR JEWELLERS — Saraf Kadal, near B.M.C Bank</p>
+              </div>
+              <a href="#store-visit" class="text-xs text-gold-400 hover:text-ivory uppercase tracking-widest flex items-center gap-1 bg-noir/80 px-3 py-1.5 border border-gold-500/30">
+                Plan Visit <i data-lucide="arrow-right" class="w-3 h-3"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- BRAND INTRO -->
+  <section class="py-24 px-6 md:px-12 bg-noir relative overflow-hidden">
+    <div class="max-w-6xl mx-auto text-center">
+      <span class="text-xs uppercase tracking-ultra-wide text-gold-400 font-semibold mb-3 block">UR JEWELLERS SRINAGAR</span>
+      <h2 class="font-serif text-3xl sm:text-5xl text-ivory font-light mb-8 max-w-3xl mx-auto leading-tight">
+        Jewellery That Belongs to Every Celebration.
+      </h2>
+      <div class="w-24 h-px bg-gold-500 mx-auto mb-10"></div>
+      <p class="text-sand/80 text-sm sm:text-base md:text-lg leading-relaxed max-w-3xl mx-auto font-light mb-16">
+        Located at the historic pulse of Kashmir’s gold trade on Nallamar Road in Saraf Kadal, UR Jewellers is renowned for curated gold jewellery, pure silver articles, and investment-grade coins. We combine age-old Kashmiri sensibilities with trendsetting contemporary designs for life’s grandest milestones.
+      </p>
+
+      <!-- 5 Key Highlights Grid -->
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-4 text-left">
+        <div class="glass-card p-6 rounded-sm border-t-2 border-t-gold-500">
+          <i data-lucide="gem" class="w-6 h-6 text-gold-400 mb-4"></i>
+          <h3 class="font-serif text-lg text-ivory mb-2">Gold Jewellery</h3>
+          <p class="text-xs text-sand/70 leading-relaxed">Exquisite bridal sets, delicate necklaces, bangles, and everyday elegance.</p>
+        </div>
+        <div class="glass-card p-6 rounded-sm border-t-2 border-t-gold-500">
+          <i data-lucide="sparkles" class="w-6 h-6 text-gold-400 mb-4"></i>
+          <h3 class="font-serif text-lg text-ivory mb-2">Silver Jewellery</h3>
+          <p class="text-xs text-sand/70 leading-relaxed">Handcrafted pure silver ornaments, traditional Kashmiri motifs, and modern accents.</p>
+        </div>
+        <div class="glass-card p-6 rounded-sm border-t-2 border-t-gold-500">
+          <i data-lucide="coins" class="w-6 h-6 text-gold-400 mb-4"></i>
+          <h3 class="font-serif text-lg text-ivory mb-2">Gold & Silver Coins</h3>
+          <p class="text-xs text-sand/70 leading-relaxed">Verified coins for sacred occasions, wedding gifts, and secure asset preservation.</p>
+        </div>
+        <div class="glass-card p-6 rounded-sm border-t-2 border-t-gold-500">
+          <i data-lucide="compass" class="w-6 h-6 text-gold-400 mb-4"></i>
+          <h3 class="font-serif text-lg text-ivory mb-2">Contemporary & Classic</h3>
+          <p class="text-xs text-sand/70 leading-relaxed">Bridging majestic traditional aesthetics with sleek minimalist modern designs.</p>
+        </div>
+        <div class="glass-card p-6 rounded-sm border-t-2 border-t-gold-500">
+          <i data-lucide="user-check" class="w-6 h-6 text-gold-400 mb-4"></i>
+          <h3 class="font-serif text-lg text-ivory mb-2">Personal Experience</h3>
+          <p class="text-xs text-sand/70 leading-relaxed">Dedicated consultation at Saraf Kadal showroom with attentive hospitality.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- LIVE RATES SECTION (EDITABLE / DYNAMIC STATE) -->
+  <section id="liverates" class="py-20 px-6 md:px-12 bg-charcoal border-y border-gold-500/20 relative">
+    <div class="max-w-6xl mx-auto">
+      <div class="flex flex-col md:flex-row md:items-end justify-between mb-12">
+        <div>
+          <span class="text-xs uppercase tracking-ultra-wide text-gold-400 font-semibold block mb-2">TRANSPARENCY & VALUE</span>
+          <h2 class="font-serif text-3xl sm:text-4xl text-ivory font-light">
+            Live Rates & Market Desk
+          </h2>
+        </div>
+        <div class="mt-4 md:mt-0 flex items-center space-x-2 text-xs text-sand/70">
+          <span class="w-2 h-2 rounded-full bg-emerald-400 animate-ping"></span>
+          <span>Market updates subject to Srinagar bullion rates</span>
+        </div>
+      </div>
+
+      <!-- Live Rate Cards Grid -->
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
+        
+        <!-- Gold 24K & 22K -->
+        <div class="glass-card p-6 rounded-sm relative overflow-hidden">
+          <div class="flex justify-between items-start mb-4">
+            <div>
+              <span class="text-[11px] uppercase tracking-widest text-gold-400 font-semibold">Fine Gold</span>
+              <h3 class="font-serif text-2xl text-ivory mt-1">24 Karat / 22 Karat</h3>
+            </div>
+            <div class="p-2 bg-noir border border-gold-500/30 rounded">
+              <i data-lucide="badge-percent" class="w-5 h-5 text-gold-400"></i>
+            </div>
+          </div>
+          <div class="py-4 border-y border-gold-500/15 space-y-2">
+            <div class="flex justify-between text-sm">
+              <span class="text-sand/80">24K Gold Rate:</span>
+              <span class="text-gold-300 font-medium font-serif text-base">Check Latest Daily Rate</span>
+            </div>
+            <div class="flex justify-between text-sm">
+              <span class="text-sand/80">22K Hallmark Rate:</span>
+              <span class="text-gold-300 font-medium font-serif text-base">Available on Enquiry</span>
+            </div>
+          </div>
+          <div class="mt-4 flex items-center justify-between">
+            <span class="text-[11px] text-sand/50">Updated Daily from Store</span>
+            <a href="tel:+919419404866" class="text-xs text-gold-400 hover:text-ivory uppercase tracking-widest font-semibold flex items-center gap-1">
+              Call For Today’s Rate <i data-lucide="arrow-right" class="w-3.5 h-3.5"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Silver Fine Rate -->
+        <div class="glass-card p-6 rounded-sm relative overflow-hidden">
+          <div class="flex justify-between items-start mb-4">
+            <div>
+              <span class="text-[11px] uppercase tracking-widest text-gold-400 font-semibold">Pure Silver</span>
+              <h3 class="font-serif text-2xl text-ivory mt-1">999 Fine Silver</h3>
+            </div>
+            <div class="p-2 bg-noir border border-gold-500/30 rounded">
+              <i data-lucide="sparkles" class="w-5 h-5 text-gold-400"></i>
+            </div>
+          </div>
+          <div class="py-4 border-y border-gold-500/15 space-y-2">
+            <div class="flex justify-between text-sm">
+              <span class="text-sand/80">Silver 10g:</span>
+              <span class="text-gold-300 font-medium font-serif text-base">Live Srinagar Rate</span>
+            </div>
+            <div class="flex justify-between text-sm">
+              <span class="text-sand/80">Silver 100g / 1 Kg:</span>
+              <span class="text-gold-300 font-medium font-serif text-base">Best Market Value</span>
+            </div>
+          </div>
+          <div class="mt-4 flex items-center justify-between">
+            <span class="text-[11px] text-sand/50">Guaranteed Purity</span>
+            <a href="https://wa.me/919419404866?text=Hello%20UR%20Jewellers,%20please%20share%20today's%20live%20silver%20rates." target="_blank" class="text-xs text-gold-400 hover:text-ivory uppercase tracking-widest font-semibold flex items-center gap-1">
+              WhatsApp Rates <i data-lucide="arrow-right" class="w-3.5 h-3.5"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Coins Desk -->
+        <div class="glass-card p-6 rounded-sm relative overflow-hidden">
+          <div class="flex justify-between items-start mb-4">
+            <div>
+              <span class="text-[11px] uppercase tracking-widest text-gold-400 font-semibold">Minted Coins</span>
+              <h3 class="font-serif text-2xl text-ivory mt-1">Gold & Silver Coins</h3>
+            </div>
+            <div class="p-2 bg-noir border border-gold-500/30 rounded">
+              <i data-lucide="coins" class="w-5 h-5 text-gold-400"></i>
+            </div>
+          </div>
+          <div class="py-4 border-y border-gold-500/15 space-y-2">
+            <div class="flex justify-between text-sm">
+              <span class="text-sand/80">Denominations:</span>
+              <span class="text-gold-300 font-medium">1g, 2g, 5g, 8g, 10g, 50g+</span>
+            </div>
+            <div class="flex justify-between text-sm">
+              <span class="text-sand/80">Availability:</span>
+              <span class="text-emerald-400 font-medium">In Stock at Saraf Kadal</span>
+            </div>
+          </div>
+          <div class="mt-4 flex items-center justify-between">
+            <span class="text-[11px] text-sand/50">Tamper-Proof Assay Pack</span>
+            <a href="#contact" class="text-xs text-gold-400 hover:text-ivory uppercase tracking-widest font-semibold flex items-center gap-1">
+              Enquire Coins <i data-lucide="arrow-right" class="w-3.5 h-3.5"></i>
+            </a>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Regulatory / Purity Notice -->
+      <div class="p-4 bg-noir/80 border border-gold-500/30 rounded flex flex-col md:flex-row items-center justify-between text-xs text-sand/80 gap-4">
+        <div class="flex items-center gap-3">
+          <i data-lucide="info" class="w-5 h-5 text-gold-400 shrink-0"></i>
+          <span><strong>Notice:</strong> Rates are subject to market change and daily bullion movements. Please contact the Saraf Kadal store directly or message on WhatsApp for the exact instant rates.</span>
+        </div>
+        <a href="tel:+919419404866" class="px-4 py-2 bg-gold-500/20 text-gold-300 hover:bg-gold-500 hover:text-noir transition-colors uppercase tracking-widest font-semibold shrink-0">
+          Direct Line: 9419404866
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- COLLECTIONS SECTION -->
+  <section id="collections" class="py-24 px-6 md:px-12 bg-noir">
+    <div class="max-w-7xl mx-auto">
+      <div class="text-center max-w-2xl mx-auto mb-16">
+        <span class="text-xs uppercase tracking-ultra-wide text-gold-400 font-semibold block mb-2">CURATED EXCELLENCE</span>
+        <h2 class="font-serif text-3xl sm:text-5xl text-ivory font-light">Explore Our Collections</h2>
+        <div class="w-16 h-px bg-gold-500 mx-auto mt-4 mb-4"></div>
+        <p class="text-sand/70 text-sm">Crafted with precision, rooted in authenticity, and curated for grand occasions.</p>
+      </div>
+
+      <!-- 5 Collection Pillars -->
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        
+        <!-- 01 GOLD JEWELLERY -->
+        <div id="gold" class="group relative bg-graphite rounded overflow-hidden border border-gold-500/20 hover:border-gold-500/60 transition-all duration-500 flex flex-col">
+          <div class="relative h-72 overflow-hidden bg-noir">
+            <img 
+              src="https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?q=80&w=800&auto=format&fit=crop" 
+              alt="Gold Jewellery Collection UR Jewellers Srinagar" 
+              class="w-full h-full object-cover group-hover:scale-108 transition-transform duration-700 brightness-90"
+              loading="lazy"
+            />
+            <div class="absolute inset-0 bg-gradient-to-t from-graphite via-transparent to-transparent"></div>
+            <span class="absolute top-4 left-4 font-serif text-3xl text-gold-400 font-light">01</span>
+          </div>
+          <div class="p-6 flex-1 flex flex-col justify-between">
+            <div>
+              <span class="text-[10px] tracking-widest uppercase text-gold-400 font-semibold">Fine Gold</span>
+              <h3 class="font-serif text-2xl text-ivory mb-2">Gold Jewellery</h3>
+              <p class="text-xs text-sand/70 leading-relaxed mb-4">
+                Bridal necklaces, ornate chokers, bangles, kadas, earrings, and rings meticulously crafted in hallmark gold.
+              </p>
+            </div>
+            <button onclick="openProductModal('Gold Bridal & Heritage Collection', 'Gold Jewellery', 'Explore our flagship gold jewellery designs in store at Saraf Kadal or request a personalized video consultation via WhatsApp.', 'https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?q=80&w=800&auto=format&fit=crop')" class="w-full py-2.5 border border-gold-500/40 text-gold-300 hover:bg-gold-500 hover:text-noir text-xs tracking-widest uppercase font-semibold transition-all">
+              View Collection
+            </button>
+          </div>
+        </div>
+
+        <!-- 02 SILVER JEWELLERY -->
+        <div id="silver" class="group relative bg-graphite rounded overflow-hidden border border-gold-500/20 hover:border-gold-500/60 transition-all duration-500 flex flex-col">
+          <div class="relative h-72 overflow-hidden bg-noir">
+            <img 
+              src="https://images.unsplash.com/photo-1603561591411-07134e71a2a9?q=80&w=800&auto=format&fit=crop" 
+              alt="Silver Ornaments and Jewellery UR Jewellers" 
+              class="w-full h-full object-cover group-hover:scale-108 transition-transform duration-700 brightness-90"
+              loading="lazy"
+            />
+            <div class="absolute inset-0 bg-gradient-to-t from-graphite via-transparent to-transparent"></div>
+            <span class="absolute top-4 left-4 font-serif text-3xl text-gold-400 font-light">02</span>
+          </div>
+          <div class="p-6 flex-1 flex flex-col justify-between">
+            <div>
+              <span class="text-[10px] tracking-widest uppercase text-gold-400 font-semibold">Sterling & Pure</span>
+              <h3 class="font-serif text-2xl text-ivory mb-2">Silver Jewellery</h3>
+              <p class="text-xs text-sand/70 leading-relaxed mb-4">
+                Intricate silver sets, traditional Kashmiri ornaments, payals, bracelets, and contemporary silver wear.
+              </p>
+            </div>
+            <button onclick="openProductModal('Silver Artisan Jewellery', 'Silver Jewellery', 'Discover handcrafted silver ornaments that reflect traditional Kashmiri craftsmanship with a sleek modern touch.', 'https://images.unsplash.com/photo-1603561591411-07134e71a2a9?q=80&w=800&auto=format&fit=crop')" class="w-full py-2.5 border border-gold-500/40 text-gold-300 hover:bg-gold-500 hover:text-noir text-xs tracking-widest uppercase font-semibold transition-all">
+              View Collection
+            </button>
+          </div>
+        </div>
+
+        <!-- 03 GOLD COINS -->
+        <div id="coins" class="group relative bg-graphite rounded overflow-hidden border border-gold-500/20 hover:border-gold-500/60 transition-all duration-500 flex flex-col">
+          <div class="relative h-72 overflow-hidden bg-noir">
+            <img 
+              src="https://images.unsplash.com/photo-1610375461246-83df859d849d?q=80&w=800&auto=format&fit=crop" 
+              alt="Pure Gold Coins Srinagar" 
+              class="w-full h-full object-cover group-hover:scale-108 transition-transform duration-700 brightness-90"
+              loading="lazy"
+            />
+            <div class="absolute inset-0 bg-gradient-to-t from-graphite via-transparent to-transparent"></div>
+            <span class="absolute top-4 left-4 font-serif text-3xl text-gold-400 font-light">03</span>
+          </div>
+          <div class="p-6 flex-1 flex flex-col justify-between">
+            <div>
+              <span class="text-[10px] tracking-widest uppercase text-gold-400 font-semibold">24 Karat Hallmark</span>
+              <h3 class="font-serif text-2xl text-ivory mb-2">Gold Coins</h3>
+              <p class="text-xs text-sand/70 leading-relaxed mb-4">
+                Guaranteed purity gold coins available in multiple denominations for auspicious milestones and long-term security.
+              </p>
+            </div>
+            <button onclick="openProductModal('24K Fine Gold Coins', 'Gold Coins', 'Available in tamper-proof certifications across diverse weights. Suitable for wedding gifts, shagun, and investments.', 'https://images.unsplash.com/photo-1610375461246-83df859d849d?q=80&w=800&auto=format&fit=crop')" class="w-full py-2.5 border border-gold-500/40 text-gold-300 hover:bg-gold-500 hover:text-noir text-xs tracking-widest uppercase font-semibold transition-all">
+              View Denominations
+            </button>
+          </div>
+        </div>
+
+        <!-- 04 SILVER COINS -->
+        <div class="group relative bg-graphite rounded overflow-hidden border border-gold-500/20 hover:border-gold-500/60 transition-all duration-500 flex flex-col">
+          <div class="relative h-72 overflow-hidden bg-noir">
+            <img 
+              src="https://images.unsplash.com/photo-1579783902614-a3fb3927b675?q=80&w=800&auto=format&fit=crop" 
+              alt="Silver Coins and Bars UR Jewellers" 
+              class="w-full h-full object-cover group-hover:scale-108 transition-transform duration-700 brightness-90"
+              loading="lazy"
+            />
+            <div class="absolute inset-0 bg-gradient-to-t from-graphite via-transparent to-transparent"></div>
+            <span class="absolute top-4 left-4 font-serif text-3xl text-gold-400 font-light">04</span>
+          </div>
+          <div class="p-6 flex-1 flex flex-col justify-between">
+            <div>
+              <span class="text-[10px] tracking-widest uppercase text-gold-400 font-semibold">999 Pure Silver</span>
+              <h3 class="font-serif text-2xl text-ivory mb-2">Silver Coins & Bars</h3>
+              <p class="text-xs text-sand/70 leading-relaxed mb-4">
+                Assayed 999 fine silver coins for festive gifting, corporate offerings, and religious occasions.
+              </p>
+            </div>
+            <button onclick="openProductModal('999 Fine Silver Coins', 'Silver Coins', 'Pure silver minted coins and bars in custom weights with verified purity from UR Jewellers.', 'https://images.unsplash.com/photo-1579783902614-a3fb3927b675?q=80&w=800&auto=format&fit=crop')" class="w-full py-2.5 border border-gold-500/40 text-gold-300 hover:bg-gold-500 hover:text-noir text-xs tracking-widest uppercase font-semibold transition-all">
+              View Details
+            </button>
+          </div>
+        </div>
+
+        <!-- 05 SIGNATURE JEWELLERY -->
+        <div class="group relative bg-graphite rounded overflow-hidden border border-gold-500/20 hover:border-gold-500/60 transition-all duration-500 flex flex-col md:col-span-2 lg:col-span-2">
+          <div class="relative h-72 overflow-hidden bg-noir">
+            <img 
+              src="https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?q=80&w=1200&auto=format&fit=crop" 
+              alt="Signature Bridal Jewellery UR Jewellers" 
+              class="w-full h-full object-cover group-hover:scale-108 transition-transform duration-700 brightness-90"
+              loading="lazy"
+            />
+            <div class="absolute inset-0 bg-gradient-to-t from-graphite via-transparent to-transparent"></div>
+            <span class="absolute top-4 left-4 font-serif text-3xl text-gold-400 font-light">05</span>
+          </div>
+          <div class="p-6 flex-1 flex flex-col justify-between">
+            <div>
+              <div class="flex items-center gap-2 mb-1">
+                <span class="text-[10px] tracking-widest uppercase text-gold-400 font-semibold">Shahri Khaas Edition</span>
+                <span class="text-[9px] bg-gold-500/20 text-gold-300 px-2 py-0.5 rounded">Signature</span>
+              </div>
+              <h3 class="font-serif text-2xl sm:text-3xl text-ivory mb-2">Signature Kashmiri & Bridal Suites</h3>
+              <p class="text-xs sm:text-sm text-sand/70 leading-relaxed mb-4">
+                Statement necklaces, heritage dejihor inspired motifs, and grand wedding ornaments crafted for memorable celebrations.
+              </p>
+            </div>
+            <div class="flex flex-col sm:flex-row gap-3">
+              <button onclick="openProductModal('Signature Bridal Suite', 'Signature Jewellery', 'Our pinnacle bridal suite featuring royal Kashmiri motifs, exquisite stone settings, and premium finish.', 'https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?q=80&w=1200&auto=format&fit=crop')" class="flex-1 py-2.5 bg-gradient-to-r from-gold-600 via-gold-500 to-gold-400 text-noir text-xs tracking-widest uppercase font-bold hover:brightness-110 transition-all">
+                Enquire Signature Suite
+              </button>
+              <a href="#booking" class="px-6 py-2.5 border border-gold-500/40 text-gold-300 text-xs tracking-widest uppercase font-semibold text-center hover:bg-gold-500/10 transition-all">
+                Book Bridal Fitting
+              </a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- EDITORIAL PRODUCT SHOWCASE -->
+  <section class="py-24 px-6 md:px-12 bg-charcoal relative">
+    <div class="max-w-7xl mx-auto">
+      
+      <div class="flex flex-col md:flex-row md:items-end justify-between mb-16">
+        <div>
+          <span class="text-xs uppercase tracking-ultra-wide text-gold-400 font-semibold block mb-2">FEATURED PIECES</span>
+          <h2 class="font-serif text-3xl sm:text-5xl text-ivory font-light">The Masterpiece Gallery</h2>
+        </div>
+        <p class="text-sand/70 text-xs sm:text-sm max-w-md mt-4 md:mt-0">
+          Every creation tells a story of unmatched passion. Enquire directly with our store specialists for instant availability.
+        </p>
+      </div>
+
+      <!-- Gallery Grid -->
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        
+        <!-- Item 1 -->
+        <div class="glass-card group flex flex-col justify-between overflow-hidden">
+          <div class="relative overflow-hidden aspect-square bg-noir">
+            <img 
+              src="https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?q=80&w=800&auto=format&fit=crop" 
+              alt="Heritage Gold Choker Set" 
+              class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
+              loading="lazy"
+            />
+            <span class="absolute top-3 left-3 bg-noir/80 border border-gold-500/40 text-gold-300 text-[9px] uppercase tracking-widest px-2.5 py-1">
+              Gold Hallmark
+            </span>
+          </div>
+          <div class="p-5 flex-1 flex flex-col justify-between">
+            <div>
+              <span class="text-[10px] uppercase tracking-widest text-sand/60">Necklace Set</span>
+              <h3 class="font-serif text-lg text-ivory font-normal my-1">Heritage Royal Choker</h3>
+              <p class="text-[11px] text-sand/70 mb-4 line-clamp-2">Intricate traditional filigree with fine drop beads, ideal for bridal grandeur.</p>
+            </div>
+            <button 
+              onclick="openProductModal('Heritage Royal Choker', 'Necklaces & Chokers', 'Detailed hallmark gold choker handcrafted by master artisans in Saraf Kadal with timeless Kashmiri design cues.', 'https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?q=80&w=800&auto=format&fit=crop')"
+              class="w-full py-2 bg-noir border border-gold-500/40 hover:bg-gold-500 hover:text-noir text-gold-300 text-[11px] tracking-widest uppercase font-medium transition-colors flex items-center justify-center gap-2">
+              <i data-lucide="eye" class="w-3.5 h-3.5"></i> Enquire Details
+            </button>
+          </div>
+        </div>
+
+        <!-- Item 2 -->
+        <div class="glass-card group flex flex-col justify-between overflow-hidden">
+          <div class="relative overflow-hidden aspect-square bg-noir">
+            <img 
+              src="https://images.unsplash.com/photo-1605100804763-247f67b3557e?q=80&w=800&auto=format&fit=crop" 
+              alt="Artisan Gold Ring" 
+              class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
+              loading="lazy"
+            />
+            <span class="absolute top-3 left-3 bg-noir/80 border border-gold-500/40 text-gold-300 text-[9px] uppercase tracking-widest px-2.5 py-1">
+              Fine Gold
+            </span>
+          </div>
+          <div class="p-5 flex-1 flex flex-col justify-between">
+            <div>
+              <span class="text-[10px] uppercase tracking-widest text-sand/60">Rings</span>
+              <h3 class="font-serif text-lg text-ivory font-normal my-1">Shahri Khaas Solitaire Ring</h3>
+              <p class="text-[11px] text-sand/70 mb-4 line-clamp-2">Graceful cocktail and engagement band designed for eternal celebration.</p>
+            </div>
+            <button 
+              onclick="openProductModal('Shahri Khaas Solitaire Ring', 'Rings', 'Sleek modern hallmark gold ring with high-polish finishing and comfortable ergonomic inner profile.', 'https://images.unsplash.com/photo-1605100804763-247f67b3557e?q=80&w=800&auto=format&fit=crop')"
+              class="w-full py-2 bg-noir border border-gold-500/40 hover:bg-gold-500 hover:text-noir text-gold-300 text-[11px] tracking-widest uppercase font-medium transition-colors flex items-center justify-center gap-2">
+              <i data-lucide="eye" class="w-3.5 h-3.5"></i> Enquire Details
+            </button>
+          </div>
+        </div>
+
+        <!-- Item 3 -->
+        <div class="glass-card group flex flex-col justify-between overflow-hidden">
+          <div class="relative overflow-hidden aspect-square bg-noir">
+            <img 
+              src="https://images.unsplash.com/photo-1611591475166-4f46924b1f41?q=80&w=800&auto=format&fit=crop" 
+              alt="Traditional Kashmiri Bangles" 
+              class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
+              loading="lazy"
+            />
+            <span class="absolute top-3 left-3 bg-noir/80 border border-gold-500/40 text-gold-300 text-[9px] uppercase tracking-widest px-2.5 py-1">
+              Handcrafted
+            </span>
+          </div>
+          <div class="p-5 flex-1 flex flex-col justify-between">
+            <div>
+              <span class="text-[10px] uppercase tracking-widest text-sand/60">Bangles & Kadas</span>
+              <h3 class="font-serif text-lg text-ivory font-normal my-1">Embossed Gold Kada Pair</h3>
+              <p class="text-[11px] text-sand/70 mb-4 line-clamp-2">Heirloom floral embossing inspired by Kashmiri chinar and paisley artwork.</p>
+            </div>
+            <button 
+              onclick="openProductModal('Embossed Gold Kada Pair', 'Bangles & Kadas', 'Solid hallmark gold kadas sculpted with traditional chinar leaves and royal geometric filigree.', 'https://images.unsplash.com/photo-1611591475166-4f46924b1f41?q=80&w=800&auto=format&fit=crop')"
+              class="w-full py-2 bg-noir border border-gold-500/40 hover:bg-gold-500 hover:text-noir text-gold-300 text-[11px] tracking-widest uppercase font-medium transition-colors flex items-center justify-center gap-2">
+              <i data-lucide="eye" class="w-3.5 h-3.5"></i> Enquire Details
+            </button>
+          </div>
+        </div>
+
+        <!-- Item 4 -->
+        <div class="glass-card group flex flex-col justify-between overflow-hidden">
+          <div class="relative overflow-hidden aspect-square bg-noir">
+            <img 
+              src="https://images.unsplash.com/photo-1630019852942-f89202989a59?q=80&w=800&auto=format&fit=crop" 
+              alt="Pure Silver Bridal Suite" 
+              class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
+              loading="lazy"
+            />
+            <span class="absolute top-3 left-3 bg-noir/80 border border-gold-500/40 text-gold-300 text-[9px] uppercase tracking-widest px-2.5 py-1">
+              Pure Silver
+            </span>
+          </div>
+          <div class="p-5 flex-1 flex flex-col justify-between">
+            <div>
+              <span class="text-[10px] uppercase tracking-widest text-sand/60">Silver Ornaments</span>
+              <h3 class="font-serif text-lg text-ivory font-normal my-1">Artisan Silver Jhumkas</h3>
+              <p class="text-[11px] text-sand/70 mb-4 line-clamp-2">Cascading pure silver earrings with fine ghungroo and vintage antique sheen.</p>
+            </div>
+            <button 
+              onclick="openProductModal('Artisan Silver Jhumkas', 'Silver Ornaments', 'Authentic 92.5 / pure silver earrings handcrafted for festive occasions and cultural gatherings.', 'https://images.unsplash.com/photo-1630019852942-f89202989a59?q=80&w=800&auto=format&fit=crop')"
+              class="w-full py-2 bg-noir border border-gold-500/40 hover:bg-gold-500 hover:text-noir text-gold-300 text-[11px] tracking-widest uppercase font-medium transition-colors flex items-center justify-center gap-2">
+              <i data-lucide="eye" class="w-3.5 h-3.5"></i> Enquire Details
+            </button>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- View More on Instagram Link -->
+      <div class="mt-12 text-center">
+        <a href="https://instagram.com/urjewellers" target="_blank" rel="noopener" class="inline-flex items-center gap-2 text-xs uppercase tracking-widest text-gold-400 hover:text-ivory border-b border-gold-400/40 pb-1 transition-all">
+          <i data-lucide="instagram" class="w-4 h-4"></i> Explore 4,988+ Live Posts On Instagram @urjewellers
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- OCCASIONS SECTION -->
+  <section class="py-20 px-6 md:px-12 bg-noir border-t border-gold-500/10">
+    <div class="max-w-6xl mx-auto">
+      <div class="text-center max-w-2xl mx-auto mb-16">
+        <span class="text-xs uppercase tracking-ultra-wide text-gold-400 font-semibold block mb-2">CELEBRATING LIFE</span>
+        <h2 class="font-serif text-3xl sm:text-5xl text-ivory font-light">Made for Moments That Matter</h2>
+        <div class="w-16 h-px bg-gold-500 mx-auto mt-4 mb-4"></div>
+        <p class="text-sand/70 text-xs sm:text-sm">From grand Kashmiri weddings to sacred family rituals and personal milestones.</p>
+      </div>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-4">
+        
+        <div class="p-6 bg-graphite/40 border border-gold-500/20 hover:border-gold-400 transition-colors flex flex-col text-center items-center">
+          <div class="w-12 h-12 rounded-full bg-gold-500/10 border border-gold-500/30 flex items-center justify-center mb-4 text-gold-400">
+            <i data-lucide="heart" class="w-5 h-5"></i>
+          </div>
+          <h3 class="font-serif text-xl text-ivory mb-2">Weddings</h3>
+          <p class="text-xs text-sand/70 leading-relaxed">Comprehensive bridal sets, dejihor ornaments, and groom gold accessories.</p>
+        </div>
+
+        <div class="p-6 bg-graphite/40 border border-gold-500/20 hover:border-gold-400 transition-colors flex flex-col text-center items-center">
+          <div class="w-12 h-12 rounded-full bg-gold-500/10 border border-gold-500/30 flex items-center justify-center mb-4 text-gold-400">
+            <i data-lucide="moon" class="w-5 h-5"></i>
+          </div>
+          <h3 class="font-serif text-xl text-ivory mb-2">Festivals</h3>
+          <p class="text-xs text-sand/70 leading-relaxed">Eid celebrations, Diwali tokens, and auspicious festive acquisitions.</p>
+        </div>
+
+        <div class="p-6 bg-graphite/40 border border-gold-500/20 hover:border-gold-400 transition-colors flex flex-col text-center items-center">
+          <div class="w-12 h-12 rounded-full bg-gold-500/10 border border-gold-500/30 flex items-center justify-center mb-4 text-gold-400">
+            <i data-lucide="gift" class="w-5 h-5"></i>
+          </div>
+          <h3 class="font-serif text-xl text-ivory mb-2">Gifting</h3>
+          <p class="text-xs text-sand/70 leading-relaxed">Pure gold and silver coins, commemorative bars, and elegant light jewelry.</p>
+        </div>
+
+        <div class="p-6 bg-graphite/40 border border-gold-500/20 hover:border-gold-400 transition-colors flex flex-col text-center items-center">
+          <div class="w-12 h-12 rounded-full bg-gold-500/10 border border-gold-500/30 flex items-center justify-center mb-4 text-gold-400">
+            <i data-lucide="users" class="w-5 h-5"></i>
+          </div>
+          <h3 class="font-serif text-xl text-ivory mb-2">Family Milestones</h3>
+          <p class="text-xs text-sand/70 leading-relaxed">Anniversaries, newborn blessings, and passing down precious heirlooms.</p>
+        </div>
+
+        <div class="p-6 bg-graphite/40 border border-gold-500/20 hover:border-gold-400 transition-colors flex flex-col text-center items-center">
+          <div class="w-12 h-12 rounded-full bg-gold-500/10 border border-gold-500/30 flex items-center justify-center mb-4 text-gold-400">
+            <i data-lucide="sparkles" class="w-5 h-5"></i>
+          </div>
+          <h3 class="font-serif text-xl text-ivory mb-2">Everyday Luxury</h3>
+          <p class="text-xs text-sand/70 leading-relaxed">Understated daily wear chains, diamond accents, minimalist rings & studs.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- KASHMIRI HERITAGE & SHAHRI KHAAS ESSENCE -->
+  <section id="about" class="py-24 px-6 md:px-12 bg-charcoal relative overflow-hidden">
+    <div class="max-w-6xl mx-auto">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+        
+        <div class="lg:col-span-6 space-y-6">
+          <span class="text-xs uppercase tracking-ultra-wide text-gold-400 font-semibold block">THE HISTORIC LEGACY</span>
+          <h2 class="font-serif text-3xl sm:text-5xl text-ivory font-light leading-tight">
+            Rooted in Srinagar. <br>
+            <span class="italic text-gold-300">Designed for Every Generation.</span>
+          </h2>
+          <div class="w-20 h-px bg-gold-500"></div>
+          <p class="text-sand/80 text-sm sm:text-base leading-relaxed font-light">
+            Shahri Khaas — Downtown Srinagar — has for centuries been the beating heart of Kashmiri trade, heritage, and unmatched craftsmanship. At UR Jewellers on Nallamar Road in Saraf Kadal, we preserve the venerated trust of traditional goldsmithing while curating fresh, trendy designs for the modern bride and family.
+          </p>
+          <p class="text-sand/80 text-sm sm:text-base leading-relaxed font-light">
+            Whether selecting pure coins or consulting for bespoke bridal arrangements, our customers in Srinagar and across Jammu & Kashmir rely on our commitment to authentic rates, cooperative hospitality, and genuine guidance.
+          </p>
+
+          <div class="grid grid-cols-2 gap-4 pt-4 text-xs tracking-wider">
+            <div class="border-l-2 border-gold-500 pl-4 py-1">
+              <span class="text-ivory font-medium block">Saraf Kadal Location</span>
+              <span class="text-sand/60 text-[11px]">Nallamar Road, Near B.M.C Bank</span>
+            </div>
+            <div class="border-l-2 border-gold-500 pl-4 py-1">
+              <span class="text-ivory font-medium block">124,000+ Followers</span>
+              <span class="text-sand/60 text-[11px]">Kashmir’s most followed jewellery digital hub</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="lg:col-span-6 grid grid-cols-2 gap-4">
+          <div class="space-y-4">
+            <div class="rounded overflow-hidden border border-gold-500/30">
+              <img 
+                src="https://images.unsplash.com/photo-1573408301185-9146fe634ad0?q=80&w=600&auto=format&fit=crop" 
+                alt="Detailed Gold Jewellery Craftsmanship" 
+                class="w-full h-48 sm:h-56 object-cover"
+                loading="lazy"
+              />
+            </div>
+            <div class="p-6 bg-noir border border-gold-500/20 text-center">
+              <span class="font-serif text-3xl text-gold-400 font-light block">359+</span>
+              <span class="text-[10px] tracking-widest text-sand uppercase">Google Store Reviews</span>
+            </div>
+          </div>
+          <div class="space-y-4 pt-8">
+            <div class="p-6 bg-noir border border-gold-500/20 text-center">
+              <span class="font-serif text-3xl text-gold-400 font-light block">4,988+</span>
+              <span class="text-[10px] tracking-widest text-sand uppercase">Instagram Jewellery Catalog</span>
+            </div>
+            <div class="rounded overflow-hidden border border-gold-500/30">
+              <img 
+                src="https://images.unsplash.com/photo-1543290954-bc6ae332c525?q=80&w=600&auto=format&fit=crop" 
+                alt="Traditional Gold Ornaments" 
+                class="w-full h-48 sm:h-56 object-cover"
+                loading="lazy"
+              />
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- WHY CHOOSE UR JEWELLERS -->
+  <section class="py-20 px-6 md:px-12 bg-noir">
+    <div class="max-w-6xl mx-auto">
+      <div class="text-center max-w-2xl mx-auto mb-16">
+        <span class="text-xs uppercase tracking-ultra-wide text-gold-400 font-semibold block mb-2">OUR COMMITMENT</span>
+        <h2 class="font-serif text-3xl sm:text-5xl text-ivory font-light">Why Choose UR Jewellers?</h2>
+        <div class="w-16 h-px bg-gold-500 mx-auto mt-4 mb-4"></div>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        
+        <div class="glass-card p-6 rounded">
+          <div class="flex items-center gap-3 mb-3">
+            <i data-lucide="check-circle-2" class="w-5 h-5 text-gold-400"></i>
+            <h3 class="font-serif text-xl text-ivory">Curated Jewellery Collection</h3>
+          </div>
+          <p class="text-xs text-sand/70 leading-relaxed">
+            Fresh, handpicked designs encompassing both classical Kashmiri elegance and lightweight modern styling.
+          </p>
+        </div>
+
+        <div class="glass-card p-6 rounded">
+          <div class="flex items-center gap-3 mb-3">
+            <i data-lucide="shield-alert" class="w-5 h-5 text-gold-400"></i>
+            <h3 class="font-serif text-xl text-ivory">Gold & Silver Coins</h3>
+          </div>
+          <p class="text-xs text-sand/70 leading-relaxed">
+            Certified purity across all weights. Ideal for safe investment and traditional shagun gifting.
+          </p>
+        </div>
+
+        <div class="glass-card p-6 rounded">
+          <div class="flex items-center gap-3 mb-3">
+            <i data-lucide="map-pin" class="w-5 h-5 text-gold-400"></i>
+            <h3 class="font-serif text-xl text-ivory">Prime Srinagar Location</h3>
+          </div>
+          <p class="text-xs text-sand/70 leading-relaxed">
+            Situated at Nallamar Road, Saraf Kadal (near B.M.C Bank) — easily accessible in the heart of the city.
+          </p>
+        </div>
+
+        <div class="glass-card p-6 rounded">
+          <div class="flex items-center gap-3 mb-3">
+            <i data-lucide="message-square" class="w-5 h-5 text-gold-400"></i>
+            <h3 class="font-serif text-xl text-ivory">Online Enquiry & Support</h3>
+          </div>
+          <p class="text-xs text-sand/70 leading-relaxed">
+            Direct WhatsApp support for checking rate updates, product availability, and custom order status.
+          </p>
+        </div>
+
+        <div class="glass-card p-6 rounded">
+          <div class="flex items-center gap-3 mb-3">
+            <i data-lucide="users" class="w-5 h-5 text-gold-400"></i>
+            <h3 class="font-serif text-xl text-ivory">Cooperative Staff & Service</h3>
+          </div>
+          <p class="text-xs text-sand/70 leading-relaxed">
+            Acclaimed by our patrons for warm hospitality, transparent advice, and tailored bridal consultations.
+          </p>
+        </div>
+
+        <div class="glass-card p-6 rounded">
+          <div class="flex items-center gap-3 mb-3">
+            <i data-lucide="scale" class="w-5 h-5 text-gold-400"></i>
+            <h3 class="font-serif text-xl text-ivory">Genuine Market Rates</h3>
+          </div>
+          <p class="text-xs text-sand/70 leading-relaxed">
+            Fair and transparent bullion-aligned pricing without concealed markups on precious gold and silver.
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CUSTOMER REVIEWS & REPUTATION -->
+  <section id="reviews" class="py-24 px-6 md:px-12 bg-charcoal border-t border-gold-500/15">
+    <div class="max-w-6xl mx-auto">
+      
+      <!-- Review Summary Banner -->
+      <div class="bg-noir p-8 rounded-sm border border-gold-500/30 flex flex-col md:flex-row items-center justify-between gap-6 mb-16 text-center md:text-left">
+        <div class="flex flex-col md:flex-row items-center gap-6">
+          <div class="p-4 bg-graphite border border-gold-500/40 rounded-full text-gold-400">
+            <i data-lucide="star" class="w-8 h-8 fill-gold-400"></i>
+          </div>
+          <div>
+            <div class="flex items-center justify-center md:justify-start gap-2">
+              <span class="font-serif text-4xl text-ivory font-bold">4.0</span>
+              <div class="flex text-gold-400">
+                <span>★</span><span>★</span><span>★</span><span>★</span><span class="text-sand/30">★</span>
+              </div>
+            </div>
+            <p class="text-xs uppercase tracking-widest text-sand/70 mt-1">Based on 359 Genuine Google Reviews</p>
+          </div>
+        </div>
+
+        <div class="flex flex-col sm:flex-row items-center gap-3">
+          <a href="https://maps.google.com/?q=UR+Jewellers+Saraf+Kadal+Srinagar" target="_blank" rel="noopener" class="px-6 py-3 bg-gold-500 text-noir text-xs uppercase tracking-widest font-semibold hover:brightness-110 transition-all">
+            View Google Reviews
+          </a>
+        </div>
+      </div>
+
+      <div class="text-center max-w-xl mx-auto mb-12">
+        <span class="text-xs uppercase tracking-ultra-wide text-gold-400 font-semibold block mb-2">AUTHENTIC TESTIMONIALS</span>
+        <h2 class="font-serif text-3xl text-ivory font-light">Loved by Our Customers</h2>
+        <p class="text-sand/70 text-xs mt-2">Public feedback highlighting our jewellery variety, trendy designs, cooperative team, and genuine rates.</p>
+      </div>
+
+      <!-- Reviews Grid (Genuine aggregated sentiments) -->
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        
+        <div class="glass-card p-6 rounded flex flex-col justify-between">
+          <div>
+            <div class="flex text-gold-400 text-xs mb-3">★★★★★</div>
+            <p class="text-xs sm:text-sm text-sand/90 italic leading-relaxed mb-4">
+              "Great collection of modern and traditional gold jewellery in Saraf Kadal. The staff is very cooperative and took time to help us select our wedding jewellery."
+            </p>
+          </div>
+          <div class="border-t border-gold-500/15 pt-3 flex items-center justify-between text-[11px]">
+            <span class="text-ivory font-medium">Customer from Srinagar</span>
+            <span class="text-sand/50">Google Verified Review</span>
+          </div>
+        </div>
+
+        <div class="glass-card p-6 rounded flex flex-col justify-between">
+          <div>
+            <div class="flex text-gold-400 text-xs mb-3">★★★★★</div>
+            <p class="text-xs sm:text-sm text-sand/90 italic leading-relaxed mb-4">
+              "One of the best jewellery shops in Shahri Khaas. Genuine rates for gold and silver coins, and really trendy lightweight designs that are hard to find elsewhere."
+            </p>
+          </div>
+          <div class="border-t border-gold-500/15 pt-3 flex items-center justify-between text-[11px]">
+            <span class="text-ivory font-medium">Local Buyer</span>
+            <span class="text-sand/50">Google Verified Review</span>
+          </div>
+        </div>
+
+        <div class="glass-card p-6 rounded flex flex-col justify-between">
+          <div>
+            <div class="flex text-gold-400 text-xs mb-3">★★★★☆</div>
+            <p class="text-xs sm:text-sm text-sand/90 italic leading-relaxed mb-4">
+              "Polite staff and a huge variety of gold items. Convenient location right near B.M.C Bank on Nallamar Road. Smooth enquiry on WhatsApp before visiting."
+            </p>
+          </div>
+          <div class="border-t border-gold-500/15 pt-3 flex items-center justify-between text-[11px]">
+            <span class="text-ivory font-medium">Store Patron</span>
+            <span class="text-sand/50">Google Verified Review</span>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- INSTAGRAM SOCIAL SHOWCASE -->
+  <section class="py-20 px-6 md:px-12 bg-noir">
+    <div class="max-w-7xl mx-auto">
+      
+      <div class="flex flex-col md:flex-row md:items-end justify-between mb-12">
+        <div>
+          <span class="text-xs uppercase tracking-ultra-wide text-gold-400 font-semibold block mb-2">DIGITAL COMMUNITY</span>
+          <h2 class="font-serif text-3xl sm:text-4xl text-ivory font-light">
+            Follow UR Jewellers <span class="text-gold-400">@urjewellers</span>
+          </h2>
+        </div>
+        <a href="https://instagram.com/urjewellers" target="_blank" rel="noopener" class="mt-4 md:mt-0 inline-flex items-center gap-2 px-5 py-2.5 border border-gold-500/40 text-gold-300 hover:bg-gold-500 hover:text-noir text-xs tracking-widest uppercase font-semibold transition-all">
+          <i data-lucide="instagram" class="w-4 h-4"></i> Follow 124K+ on Instagram
+        </a>
+      </div>
+
+      <!-- Instagram Grid -->
+      <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-3">
+        
+        <a href="https://instagram.com/urjewellers" target="_blank" class="group relative aspect-square bg-graphite overflow-hidden block">
+          <img src="https://images.unsplash.com/photo-1599643477877-530eb83abc8e?q=80&w=400&auto=format&fit=crop" alt="Instagram post jewellery" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+          <div class="absolute inset-0 bg-noir/60 opacity-0 group-hover:opacity-100 flex items-center justify-center transition-opacity">
+            <i data-lucide="instagram" class="w-6 h-6 text-gold-400"></i>
+          </div>
+        </a>
+
+        <a href="https://instagram.com/urjewellers" target="_blank" class="group relative aspect-square bg-graphite overflow-hidden block">
+          <img src="https://images.unsplash.com/photo-1601121141461-9d6647bca1ed?q=80&w=400&auto=format&fit=crop" alt="Instagram post jewellery" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+          <div class="absolute inset-0 bg-noir/60 opacity-0 group-hover:opacity-100 flex items-center justify-center transition-opacity">
+            <i data-lucide="instagram" class="w-6 h-6 text-gold-400"></i>
+          </div>
+        </a>
+
+        <a href="https://instagram.com/urjewellers" target="_blank" class="group relative aspect-square bg-graphite overflow-hidden block">
+          <img src="https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?q=80&w=400&auto=format&fit=crop" alt="Instagram post jewellery" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+          <div class="absolute inset-0 bg-noir/60 opacity-0 group-hover:opacity-100 flex items-center justify-center transition-opacity">
+            <i data-lucide="instagram" class="w-6 h-6 text-gold-400"></i>
+          </div>
+        </a>
+
+        <a href="https://instagram.com/urjewellers" target="_blank" class="group relative aspect-square bg-graphite overflow-hidden block">
+          <img src="https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?q=80&w=400&auto=format&fit=crop" alt="Instagram post jewellery" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+          <div class="absolute inset-0 bg-noir/60 opacity-0 group-hover:opacity-100 flex items-center justify-center transition-opacity">
+            <i data-lucide="instagram" class="w-6 h-6 text-gold-400"></i>
+          </div>
+        </a>
+
+        <a href="https://instagram.com/urjewellers" target="_blank" class="group relative aspect-square bg-graphite overflow-hidden block">
+          <img src="https://images.unsplash.com/photo-1605100804763-247f67b3557e?q=80&w=400&auto=format&fit=crop" alt="Instagram post jewellery" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+          <div class="absolute inset-0 bg-noir/60 opacity-0 group-hover:opacity-100 flex items-center justify-center transition-opacity">
+            <i data-lucide="instagram" class="w-6 h-6 text-gold-400"></i>
+          </div>
+        </a>
+
+        <a href="https://instagram.com/urjewellers" target="_blank" class="group relative aspect-square bg-graphite overflow-hidden block">
+          <img src="https://images.unsplash.com/photo-1611591475166-4f46924b1f41?q=80&w=400&auto=format&fit=crop" alt="Instagram post jewellery" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+          <div class="absolute inset-0 bg-noir/60 opacity-0 group-hover:opacity-100 flex items-center justify-center transition-opacity">
+            <i data-lucide="instagram" class="w-6 h-6 text-gold-400"></i>
+          </div>
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- APPOINTMENT BOOKING & ORDER DESK -->
+  <section id="booking" class="py-24 px-6 md:px-12 bg-charcoal border-t border-gold-500/15">
+    <div class="max-w-6xl mx-auto">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-12">
+        
+        <!-- Left: Booking Desk -->
+        <div class="lg:col-span-7 bg-noir p-8 md:p-10 rounded border border-gold-500/20">
+          <span class="text-xs uppercase tracking-ultra-wide text-gold-400 font-semibold block mb-2">PERSONAL EXPERIENCE</span>
+          <h2 class="font-serif text-3xl text-ivory font-light mb-4">Book a Personal Jewellery Enquiry</h2>
+          <p class="text-xs text-sand/70 mb-8 leading-relaxed">
+            Schedule a dedicated in-store consultation at Saraf Kadal for bridal trousseau planning, customized gold weight calculations, or coin viewings.
+          </p>
+
+          <form id="appointment-form" onsubmit="handleAppointmentSubmit(event)" class="space-y-5">
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+              <div>
+                <label class="block text-[11px] uppercase tracking-wider text-sand/80 mb-1">Full Name *</label>
+                <input type="text" id="app-name" required placeholder="e.g. Tariq Ahmad" class="w-full bg-graphite border border-gold-500/30 text-ivory px-4 py-2.5 text-xs focus:outline-none focus:border-gold-400">
+              </div>
+              <div>
+                <label class="block text-[11px] uppercase tracking-wider text-sand/80 mb-1">Phone Number *</label>
+                <input type="tel" id="app-phone" required placeholder="+91 XXXXX XXXXX" class="w-full bg-graphite border border-gold-500/30 text-ivory px-4 py-2.5 text-xs focus:outline-none focus:border-gold-400">
+              </div>
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+              <div>
+                <label class="block text-[11px] uppercase tracking-wider text-sand/80 mb-1">Preferred Date *</label>
+                <input type="date" id="app-date" required class="w-full bg-graphite border border-gold-500/30 text-ivory px-4 py-2.5 text-xs focus:outline-none focus:border-gold-400">
+              </div>
+              <div>
+                <label class="block text-[11px] uppercase tracking-wider text-sand/80 mb-1">Preferred Time *</label>
+                <select id="app-time" required class="w-full bg-graphite border border-gold-500/30 text-ivory px-4 py-2.5 text-xs focus:outline-none focus:border-gold-400">
+                  <option value="">Select Time Slot</option>
+                  <option value="Morning (11:00 AM - 01:00 PM)">Morning (11:00 AM - 01:00 PM)</option>
+                  <option value="Afternoon (02:00 PM - 04:30 PM)">Afternoon (02:00 PM - 04:30 PM)</option>
+                  <option value="Evening (04:30 PM - 07:30 PM)">Evening (04:30 PM - 07:30 PM)</option>
+                </select>
+              </div>
+            </div>
+
+            <div>
+              <label class="block text-[11px] uppercase tracking-wider text-sand/80 mb-1">Jewellery Requirement *</label>
+              <select id="app-requirement" required class="w-full bg-graphite border border-gold-500/30 text-ivory px-4 py-2.5 text-xs focus:outline-none focus:border-gold-400">
+                <option value="Bridal Gold Jewellery Suite">Bridal Gold Jewellery Suite</option>
+                <option value="Lightweight Daily Gold Jewellery">Lightweight Daily Gold Jewellery</option>
+                <option value="Pure Silver Articles & Jewellery">Pure Silver Articles & Jewellery</option>
+                <option value="Gold / Silver Coins & Bars">Gold / Silver Coins & Bars</option>
+                <option value="Custom Design Consultation">Custom Design Consultation</option>
+              </select>
+            </div>
+
+            <button type="submit" class="w-full py-3.5 bg-gradient-to-r from-gold-600 via-gold-500 to-gold-400 text-noir text-xs uppercase tracking-ultra-wide font-bold hover:brightness-110 transition-all">
+              Request Appointment
+            </button>
+            <p class="text-[10px] text-sand/50 text-center italic">* Note: Appointments are subject to store confirmation. We will reach out via WhatsApp/Call.</p>
+          </form>
+
+          <div id="app-feedback" class="hidden mt-4 p-3 bg-emerald-950/80 border border-emerald-500 text-emerald-200 text-xs rounded text-center">
+            Thank you! Your appointment request has been prepared. Redirecting to WhatsApp for instant verification...
+          </div>
+        </div>
+
+        <!-- Right: Official Order Desk & Contact Hub -->
+        <div id="order-desk" class="lg:col-span-5 flex flex-col justify-between space-y-6">
+          
+          <div class="bg-noir p-6 rounded border border-gold-500/20">
+            <div class="flex items-center gap-2 text-gold-400 mb-2">
+              <i data-lucide="package-search" class="w-5 h-5"></i>
+              <h3 class="font-serif text-xl text-ivory">Order & Tracking Desk</h3>
+            </div>
+            <p class="text-xs text-sand/70 mb-4 leading-relaxed">
+              Have an ongoing custom making or booked coin order with UR Jewellers? Enquire directly with our desk using your reference receipt.
+            </p>
+            
+            <div class="space-y-3">
+              <input type="text" id="order-ref-input" placeholder="Enter Order / Receipt Number" class="w-full bg-graphite border border-gold-500/30 text-ivory px-4 py-2 text-xs focus:outline-none focus:border-gold-400">
+              <button onclick="handleOrderEnquiry()" class="w-full py-2.5 border border-gold-500/40 text-gold-300 hover:bg-gold-500 hover:text-noir text-xs tracking-widest uppercase font-semibold transition-all">
+                Check Order Status
+              </button>
+            </div>
+          </div>
+
+          <div class="bg-noir p-6 rounded border border-gold-500/20">
+            <div class="flex items-center gap-2 text-gold-400 mb-2">
+              <i data-lucide="credit-card" class="w-5 h-5"></i>
+              <h3 class="font-serif text-xl text-ivory">Official Payment & Verification</h3>
+            </div>
+            <p class="text-xs text-sand/70 mb-3 leading-relaxed">
+              All official transactions, bank transfers, and token bookings must be verified through our registered store accounts.
+            </p>
+            <div class="p-3 bg-graphite/60 border border-gold-500/10 rounded text-[11px] text-sand space-y-1">
+              <div><strong class="text-ivory">Store:</strong> UR JEWELLERS</div>
+              <div><strong class="text-ivory">Official Contact:</strong> +91 94194 04866</div>
+              <div><strong class="text-ivory">Email:</strong> urjewellerz@gmail.com</div>
+            </div>
+            <a href="https://wa.me/919419404866?text=Hello%20UR%20Jewellers,%20please%20share%20verified%20store%20bank%20details%20for%20payment." target="_blank" class="mt-3 block text-center text-xs text-gold-400 hover:underline uppercase tracking-wider">
+              Request Verified Store Account Details &rarr;
+            </a>
+          </div>
+
+          <div class="p-4 bg-gold-500/10 border border-gold-500/30 rounded flex items-center gap-4">
+            <i data-lucide="phone-call" class="w-8 h-8 text-gold-400 shrink-0"></i>
+            <div>
+              <span class="text-[10px] uppercase tracking-widest text-gold-400">Additional Store Contacts</span>
+              <p class="text-xs text-ivory font-medium mt-0.5">+91 94190 75430 &nbsp;|&nbsp; +91 70069 05694</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- STORE LOCATION & VISITATION SECTION -->
+  <section id="store-visit" class="py-24 px-6 md:px-12 bg-noir relative border-t border-gold-500/15">
+    <div class="max-w-6xl mx-auto">
+      <div class="text-center max-w-2xl mx-auto mb-16">
+        <span class="text-xs uppercase tracking-ultra-wide text-gold-400 font-semibold block mb-2">FIND US IN SHAHRI KHAAS</span>
+        <h2 class="font-serif text-3xl sm:text-5xl text-ivory font-light">Visit Our Store</h2>
+        <div class="w-16 h-px bg-gold-500 mx-auto mt-4 mb-4"></div>
+        <p class="text-sand/70 text-xs sm:text-sm">We welcome you to experience our jewellery collections in person at Saraf Kadal.</p>
+      </div>
+
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-stretch">
+        
+        <!-- Store Address Box -->
+        <div class="lg:col-span-6 bg-graphite p-8 md:p-10 rounded border border-gold-500/30 flex flex-col justify-between">
+          <div class="space-y-6">
+            <div class="flex items-center gap-3">
+              <span class="p-2 bg-noir border border-gold-500/40 rounded text-gold-400">
+                <i data-lucide="map-pin" class="w-6 h-6"></i>
+              </span>
+              <div>
+                <h3 class="font-serif text-2xl text-ivory">UR JEWELLERS</h3>
+                <span class="text-xs text-gold-400 uppercase tracking-widest">The Pride of Shahri Khaas</span>
+              </div>
+            </div>
+
+            <div class="space-y-3 text-xs sm:text-sm text-sand/90 font-light border-y border-gold-500/15 py-4">
+              <p class="flex items-start gap-2">
+                <strong class="text-ivory uppercase tracking-wider shrink-0">Address:</strong>
+                <span>Nallamar Road, Saraf Kadal, near B.M.C Bank, Srinagar, Jammu & Kashmir 190002</span>
+              </p>
+              <p class="flex items-center gap-2">
+                <strong class="text-ivory uppercase tracking-wider shrink-0">Plus Code:</strong>
+                <span class="text-gold-300 font-mono">3RX4+4J Srinagar</span>
+              </p>
+              <p class="flex items-center gap-2">
+                <strong class="text-ivory uppercase tracking-wider shrink-0">Email:</strong>
+                <span>urjewellerz@gmail.com</span>
+              </p>
+              <p class="flex items-center gap-2">
+                <strong class="text-ivory uppercase tracking-wider shrink-0">Showroom Desk:</strong>
+                <span class="text-gold-400 font-medium">+91 94194 04866</span>
+              </p>
+            </div>
+
+            <div>
+              <span class="text-[11px] uppercase tracking-wider text-sand/60 block mb-2">Visiting Hours</span>
+              <p class="text-xs text-ivory font-medium">Monday – Saturday: 10:30 AM – 07:30 PM</p>
+              <p class="text-xs text-sand/60">Sunday: Open by appointment & general hours</p>
+            </div>
+          </div>
+
+          <div class="grid grid-cols-1 sm:grid-cols-3 gap-3 pt-8">
+            <a href="https://maps.google.com/?q=UR+Jewellers+Saraf+Kadal+Srinagar" target="_blank" rel="noopener" class="px-4 py-3 bg-gold-500 text-noir text-xs uppercase tracking-widest font-bold text-center hover:brightness-110 transition-all flex items-center justify-center gap-1">
+              <i data-lucide="navigation" class="w-3.5 h-3.5"></i> Directions
+            </a>
+            <a href="tel:+919419404866" class="px-4 py-3 border border-gold-500/40 text-gold-300 hover:bg-gold-500 hover:text-noir text-xs uppercase tracking-widest font-semibold text-center transition-all flex items-center justify-center gap-1">
+              <i data-lucide="phone" class="w-3.5 h-3.5"></i> Call Store
+            </a>
+            <a href="https://wa.me/919419404866" target="_blank" rel="noopener" class="px-4 py-3 border border-gold-500/40 text-gold-300 hover:bg-gold-500 hover:text-noir text-xs uppercase tracking-widest font-semibold text-center transition-all flex items-center justify-center gap-1">
+              <i data-lucide="message-circle" class="w-3.5 h-3.5"></i> WhatsApp
+            </a>
+          </div>
+        </div>
+
+        <!-- Right Side: Interactive Map & Landmark Guide -->
+        <div class="lg:col-span-6 bg-graphite rounded border border-gold-500/30 overflow-hidden flex flex-col justify-between">
+          <!-- Embed Google Map Frame -->
+          <div class="h-64 sm:h-80 w-full bg-noir relative">
+            <iframe 
+              title="UR Jewellers Srinagar Location"
+              src="https://maps.google.com/maps?q=Saraf%20Kadal%20Srinagar%20Jammu%20and%20Kashmir&t=&z=15&ie=UTF8&iwloc=&output=embed" 
+              class="w-full h-full border-0 grayscale contrast-125 opacity-80 hover:opacity-100 hover:grayscale-0 transition-all duration-500" 
+              loading="lazy"
+              allowfullscreen>
+            </iframe>
+            <div class="absolute top-3 right-3 bg-noir/90 px-3 py-1.5 border border-gold-500/40 text-[10px] text-gold-300 uppercase tracking-widest">
+              Saraf Kadal Bullion Hub
+            </div>
+          </div>
+
+          <div class="p-6 bg-noir space-y-2">
+            <h4 class="text-xs uppercase tracking-widest text-gold-400 font-semibold">Landmark Reference:</h4>
+            <p class="text-xs text-sand/80 leading-relaxed font-light">
+              Located conveniently on Nallamar Road directly opposite / near B.M.C Bank in Saraf Kadal. Saraf Kadal is Kashmir's renowned traditional jewellery district.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- GENERAL ENQUIRY CONTACT FORM -->
+  <section id="contact" class="py-24 px-6 md:px-12 bg-charcoal border-t border-gold-500/15">
+    <div class="max-w-4xl mx-auto">
+      <div class="text-center max-w-xl mx-auto mb-12">
+        <span class="text-xs uppercase tracking-ultra-wide text-gold-400 font-semibold block mb-2">GET IN TOUCH</span>
+        <h2 class="font-serif text-3xl sm:text-5xl text-ivory font-light">Let’s Find Your Next Treasure</h2>
+        <div class="w-16 h-px bg-gold-500 mx-auto mt-4 mb-4"></div>
+        <p class="text-sand/70 text-xs sm:text-sm">For jewellery enquiries, collection details and store visits, connect with UR Jewellers.</p>
+      </div>
+
+      <div class="bg-noir p-8 md:p-12 rounded border border-gold-500/30">
+        <form id="general-enquiry-form" onsubmit="handleGeneralEnquiry(event)" class="space-y-6">
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+            <div>
+              <label class="block text-xs uppercase tracking-widest text-sand/80 mb-2">Your Name *</label>
+              <input type="text" id="contact-name" required placeholder="Enter full name" class="w-full bg-graphite border border-gold-500/30 text-ivory px-4 py-3 text-xs focus:outline-none focus:border-gold-400">
+            </div>
+            <div>
+              <label class="block text-xs uppercase tracking-widest text-sand/80 mb-2">Phone / WhatsApp Number *</label>
+              <input type="tel" id="contact-phone" required placeholder="+91 XXXXX XXXXX" class="w-full bg-graphite border border-gold-500/30 text-ivory px-4 py-3 text-xs focus:outline-none focus:border-gold-400">
+            </div>
+          </div>
+
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+            <div>
+              <label class="block text-xs uppercase tracking-widest text-sand/80 mb-2">Preferred Category *</label>
+              <select id="contact-category" required class="w-full bg-graphite border border-gold-500/30 text-ivory px-4 py-3 text-xs focus:outline-none focus:border-gold-400">
+                <option value="Gold Jewellery">Gold Jewellery</option>
+                <option value="Silver Jewellery">Silver Jewellery</option>
+                <option value="Gold & Silver Coins">Gold & Silver Coins</option>
+                <option value="Bridal Custom Suite">Bridal Custom Suite</option>
+                <option value="Rate Enquiry">Live Rate Enquiry</option>
+                <option value="Other">Other Query</option>
+              </select>
+            </div>
+            <div>
+              <label class="block text-xs uppercase tracking-widest text-sand/80 mb-2">Approximate Timeline</label>
+              <select id="contact-timeline" class="w-full bg-graphite border border-gold-500/30 text-ivory px-4 py-3 text-xs focus:outline-none focus:border-gold-400">
+                <option value="Immediate / This Week">Immediate / This Week</option>
+                <option value="This Month">This Month</option>
+                <option value="Upcoming Wedding / Event">Upcoming Wedding / Event</option>
+                <option value="General Query">General Query</option>
+              </select>
+            </div>
+          </div>
+
+          <div>
+            <label class="block text-xs uppercase tracking-widest text-sand/80 mb-2">Message or Requirement Specifics</label>
+            <textarea id="contact-msg" rows="4" placeholder="Tell us about the design, weight preference, or questions you have..." class="w-full bg-graphite border border-gold-500/30 text-ivory px-4 py-3 text-xs focus:outline-none focus:border-gold-400"></textarea>
+          </div>
+
+          <div class="flex flex-col sm:flex-row items-center gap-4">
+            <button type="submit" class="w-full sm:w-1/2 py-3.5 bg-gradient-to-r from-gold-600 via-gold-500 to-gold-400 text-noir text-xs uppercase tracking-ultra-wide font-bold hover:brightness-110 transition-all">
+              Send Enquiry
+            </button>
+            <a href="https://wa.me/919419404866?text=Hello%20UR%20Jewellers,%20I%20have%20an%20enquiry%20regarding%20your%20jewellery." target="_blank" class="w-full sm:w-1/2 py-3.5 border border-gold-500/40 text-gold-300 hover:bg-gold-500 hover:text-noir text-xs uppercase tracking-ultra-wide font-semibold transition-all text-center flex items-center justify-center gap-2">
+              <i data-lucide="message-circle" class="w-4 h-4"></i> Direct WhatsApp
+            </a>
+          </div>
+
+          <div id="general-feedback" class="hidden p-3 bg-emerald-950/80 border border-emerald-500 text-emerald-200 text-xs rounded text-center">
+            Thank you! Your enquiry has been received. Our team will contact you shortly.
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- LUXURY FOOTER -->
+  <footer class="bg-noir border-t border-gold-500/20 pt-16 pb-24 lg:pb-16 px-6 md:px-12 text-sand/80">
+    <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-10 pb-12 border-b border-gold-500/15">
+      
+      <!-- Col 1: Brand & Bio -->
+      <div class="lg:col-span-2 space-y-4">
+        <a href="#" class="inline-block">
+          <span class="font-serif text-2xl tracking-widest text-ivory font-semibold uppercase">UR JEWELLERS</span>
+          <span class="block text-[9px] tracking-widest-plus text-gold-400 uppercase font-light -mt-0.5">The Pride of Shahri Khaas</span>
+        </a>
+        <p class="text-xs text-sand/70 leading-relaxed max-w-sm font-light">
+          Gold & Silver Jewellers rooted in the heritage of Saraf Kadal, Srinagar. Crafting unforgettable memories through hallmark gold jewellery, certified coins, and pure silver craftsmanship.
+        </p>
+        <div class="flex items-center space-x-3 pt-2">
+          <a href="https://instagram.com/urjewellers" target="_blank" rel="noopener" class="w-8 h-8 rounded-full bg-graphite border border-gold-500/30 flex items-center justify-center text-gold-400 hover:bg-gold-500 hover:text-noir transition-colors">
+            <i data-lucide="instagram" class="w-4 h-4"></i>
+          </a>
+          <a href="https://facebook.com" target="_blank" rel="noopener" class="w-8 h-8 rounded-full bg-graphite border border-gold-500/30 flex items-center justify-center text-gold-400 hover:bg-gold-500 hover:text-noir transition-colors">
+            <i data-lucide="facebook" class="w-4 h-4"></i>
+          </a>
+          <a href="https://wa.me/919419404866" target="_blank" rel="noopener" class="w-8 h-8 rounded-full bg-graphite border border-gold-500/30 flex items-center justify-center text-gold-400 hover:bg-gold-500 hover:text-noir transition-colors">
+            <i data-lucide="message-circle" class="w-4 h-4"></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- Col 2: Navigation -->
+      <div class="space-y-3">
+        <h4 class="text-xs uppercase tracking-ultra-wide text-ivory font-semibold">Collections</h4>
+        <ul class="space-y-2 text-xs text-sand/70">
+          <li><a href="#gold" class="hover:text-gold-400 transition-colors">Gold Jewellery</a></li>
+          <li><a href="#silver" class="hover:text-gold-400 transition-colors">Silver Jewellery</a></li>
+          <li><a href="#coins" class="hover:text-gold-400 transition-colors">Gold Coins (24K)</a></li>
+          <li><a href="#coins" class="hover:text-gold-400 transition-colors">Silver Coins (999)</a></li>
+          <li><a href="#collections" class="hover:text-gold-400 transition-colors">Signature Bridal Suites</a></li>
+        </ul>
+      </div>
+
+      <!-- Col 3: Services & Rates -->
+      <div class="space-y-3">
+        <h4 class="text-xs uppercase tracking-ultra-wide text-ivory font-semibold">Customer Care</h4>
+        <ul class="space-y-2 text-xs text-sand/70">
+          <li><a href="#liverates" class="hover:text-gold-400 transition-colors">Live Rate Desk</a></li>
+          <li><a href="#booking" class="hover:text-gold-400 transition-colors">Book Consultation</a></li>
+          <li><a href="#order-desk" class="hover:text-gold-400 transition-colors">Order Status Desk</a></li>
+          <li><a href="#reviews" class="hover:text-gold-400 transition-colors">Google Reviews (359)</a></li>
+          <li><a href="#store-visit" class="hover:text-gold-400 transition-colors">Directions & Hours</a></li>
+        </ul>
+      </div>
+
+      <!-- Col 4: Official Details -->
+      <div class="space-y-3 text-xs text-sand/70">
+        <h4 class="text-xs uppercase tracking-ultra-wide text-ivory font-semibold">Store Location</h4>
+        <p class="leading-relaxed">
+          Nallamar Road, Saraf Kadal, near B.M.C Bank, Srinagar, Jammu & Kashmir 190002
+        </p>
+        <p class="text-gold-400 font-mono text-[11px]">Plus Code: 3RX4+4J Srinagar</p>
+        <p class="text-ivory font-medium pt-1">Phone: +91 94194 04866</p>
+        <p class="text-[11px]">urjewellerz@gmail.com</p>
+      </div>
+
+    </div>
+
+    <!-- Copyright & Disclaimer -->
+    <div class="max-w-7xl mx-auto pt-8 flex flex-col md:flex-row items-center justify-between text-[11px] text-sand/50 gap-4">
+      <div>
+        © <span id="current-year"></span> UR JEWELLERS. All Rights Reserved. "The Pride of Shahri Khaas".
+      </div>
+      <div class="flex items-center space-x-6 text-[10px] uppercase tracking-wider">
+        <a href="#privacy" onclick="alert('Privacy Policy: UR Jewellers values customer privacy. We do not sell or disclose customer contact information.')" class="hover:text-gold-400">Privacy Policy</a>
+        <span>•</span>
+        <a href="#terms" onclick="alert('Terms & Conditions: Bullion rates and gold rates fluctuate with market updates. Please verify at store for instant billing.')" class="hover:text-gold-400">Terms & Conditions</a>
+        <span>•</span>
+        <a href="#liverates" class="hover:text-gold-400">Rate Policy</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- MOBILE STICKY BOTTOM ACTION BAR -->
+  <div class="lg:hidden fixed bottom-0 left-0 w-full z-40 bg-charcoal/95 backdrop-blur-md border-t border-gold-500/30 px-3 py-2.5 flex items-center justify-around text-[10px] uppercase tracking-widest font-semibold">
+    <a href="tel:+919419404866" class="flex flex-col items-center text-sand hover:text-gold-400">
+      <i data-lucide="phone" class="w-4 h-4 text-gold-400 mb-0.5"></i>
+      <span>Call</span>
+    </a>
+    <a href="https://wa.me/919419404866?text=Hello%20UR%20Jewellers,%20I%20am%20enquiring%20about%20your%20jewellery." target="_blank" class="flex flex-col items-center text-gold-400">
+      <i data-lucide="message-circle" class="w-4 h-4 text-gold-400 mb-0.5"></i>
+      <span>WhatsApp</span>
+    </a>
+    <a href="https://maps.google.com/?q=UR+Jewellers+Saraf+Kadal+Srinagar" target="_blank" class="flex flex-col items-center text-sand hover:text-gold-400">
+      <i data-lucide="map-pin" class="w-4 h-4 text-gold-400 mb-0.5"></i>
+      <span>Directions</span>
+    </a>
+    <a href="#booking" class="flex flex-col items-center text-sand hover:text-gold-400">
+      <i data-lucide="calendar" class="w-4 h-4 text-gold-400 mb-0.5"></i>
+      <span>Book Visit</span>
+    </a>
+  </div>
+
+  <!-- PRODUCT DETAIL MODAL -->
+  <div id="product-modal" class="modal hidden fixed inset-0 z-50 flex items-center justify-center p-4">
+    <!-- Backdrop -->
+    <div class="modal-backdrop fixed inset-0 bg-noir/80 backdrop-blur-md" onclick="closeProductModal()"></div>
+    
+    <!-- Modal Content -->
+    <div class="modal-content relative bg-charcoal border border-gold-500/40 rounded max-w-2xl w-full max-h-[90vh] overflow-y-auto z-10 p-6 md:p-8 text-ivory">
+      <button onclick="closeProductModal()" class="absolute top-4 right-4 text-sand/60 hover:text-gold-400 p-1" aria-label="Close Modal">
+        <i data-lucide="x" class="w-6 h-6"></i>
+      </button>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6 items-center">
+        <div class="rounded overflow-hidden border border-gold-500/20 bg-noir aspect-square">
+          <img id="modal-img" src="" alt="Jewellery Piece" class="w-full h-full object-cover">
+        </div>
+        <div class="space-y-4">
+          <div>
+            <span id="modal-category" class="text-[10px] uppercase tracking-widest text-gold-400 font-semibold block"></span>
+            <h3 id="modal-title" class="font-serif text-2xl text-ivory mt-1"></h3>
+          </div>
+          
+          <p id="modal-desc" class="text-xs text-sand/80 leading-relaxed font-light"></p>
+
+          <div class="p-3 bg-noir/70 border border-gold-500/20 rounded text-[11px] text-sand/80 space-y-1">
+            <div class="flex items-center gap-1.5 text-gold-300">
+              <i data-lucide="check" class="w-3.5 h-3.5"></i> Verified In-Store Consultation Available
+            </div>
+            <div class="flex items-center gap-1.5 text-gold-300">
+              <i data-lucide="check" class="w-3.5 h-3.5"></i> Saraf Kadal, Srinagar Showroom
+            </div>
+          </div>
+
+          <div class="space-y-2 pt-2">
+            <a id="modal-whatsapp-btn" href="#" target="_blank" class="w-full py-2.5 bg-gold-500 text-noir text-xs uppercase tracking-widest font-bold text-center flex items-center justify-center gap-2 hover:brightness-110 transition-all">
+              <i data-lucide="message-circle" class="w-4 h-4"></i> Enquire on WhatsApp
+            </a>
+            <div class="grid grid-cols-2 gap-2">
+              <a href="tel:+919419404866" class="py-2 border border-gold-500/40 text-gold-300 text-[11px] uppercase tracking-wider text-center hover:bg-gold-500 hover:text-noir transition-all flex items-center justify-center gap-1">
+                <i data-lucide="phone" class="w-3 h-3"></i> Call Store
+              </a>
+              <a href="#store-visit" onclick="closeProductModal()" class="py-2 border border-gold-500/40 text-gold-300 text-[11px] uppercase tracking-wider text-center hover:bg-gold-500 hover:text-noir transition-all flex items-center justify-center gap-1">
+                <i data-lucide="map-pin" class="w-3 h-3"></i> Visit Store
+              </a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- JAVASCRIPT LOGIC & INTERACTIONS -->
+  <script>
+    // Initialize Lucide Icons
+    lucide.createIcons();
+
+    // Set dynamic current year in footer
+    document.getElementById('current-year').textContent = new Date().getFullYear();
+
+    // Mobile Navigation Toggle
+    const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+    const mobileMenu = document.getElementById('mobile-menu');
+    const mobileLinks = document.querySelectorAll('.mobile-nav-link');
+
+    mobileMenuBtn.addEventListener('click', () => {
+      mobileMenu.classList.toggle('hidden');
+      mobileMenu.classList.toggle('flex');
+    });
+
+    mobileLinks.forEach(link => {
+      link.addEventListener('click', () => {
+        mobileMenu.classList.add('hidden');
+        mobileMenu
